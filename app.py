@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 
 import pickle
-with open('prueba (2).pkl', 'rb') as file:
+with open('prueba.pkl', 'rb') as file:
   knn = pickle.load(file)
 
 def modelo(Fresk, Milk, Grocery, Frozen, Detergents_Paper,Delicassen,Channel1,Channel2,Region1,Region2,Region3):
