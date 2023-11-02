@@ -2,7 +2,9 @@ import gradio as gr
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 
-
+import pickle
+with open('prueba.pckl', 'rb') as file:
+  knn = pickle.load(file)
 
 def modelo(Fresk, Milk, Grocery, Frozen, Detergents_Paper,Delicassen,Channel1,Channel2,Region1,Region2,Region3):
     species = ['0', '1', '2','3']
