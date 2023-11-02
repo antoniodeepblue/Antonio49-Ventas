@@ -1,1 +1,1 @@
-sckr-lean
+scikit-learn
