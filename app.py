@@ -7,7 +7,7 @@ with open('prueba.pkl', 'rb') as file:
   kmprueba = pickle.load(file)
 
 def modelo(Fresk, Milk, Grocery, Frozen, Detergents_Paper,Delicassen,Channel1,Channel2,Region1,Region2,Region3):
-    species = ['Grupo 0','1', '2','3']
+    species = ['Grupo 0','Grupo 1', 'Grupo 2','Grupo 3']
     i = kmprueba.predict([[Fresk, Milk, Grocery, Frozen,Detergents_Paper,Delicassen,Channel1,Channel2,Region1,Region2,Region3]])[0]
     return species[i]
 
