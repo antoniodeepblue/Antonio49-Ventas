@@ -27,7 +27,7 @@ interfaz = gr.Interface(
         gr.Slider(label='Region3', minimum=0.0, maximum=5.0, step=0.05),
     ],
     outputs=gr.Textbox(label='Kmeans Grupo:'),
-    title='Ventas de productos',
+    title='Ventas de productos. K-means',
     description='Este modelo está desarrollado para la agrupacion Kmeans de productos.',
     article='Antonio Fernández Salcedo. Practicas Saturdays.AI. Aplicación desarrollada con fines docentes',
     theme='peach'
