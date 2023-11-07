@@ -29,7 +29,7 @@ interfaz = gr.Interface(
     outputs=gr.Textbox(label='Kmeans Grupo:'),
     title='Ventas de productos. K-means',
     description='Este modelo está desarrollado para la agrupacion Kmeans de productos.',
-    article= "Autor: <a href=\"https://huggingface.co/Antonio49\">Antonio Fernández</a>. de <a href=\"https://saturdays.ai/\">SaturdaysAI</a>. Aplicación desarrollada con fines docentes',
+    article= 'Autor: <a href=\"https://huggingface.co/Antonio49\>Antonio Fernández</a>. de <a href=\"https://saturdays.ai/\">SaturdaysAI</a>. Aplicación desarrollada con fines docentes',
     theme='peach'
     examples = [[0,'Fresk', 0,'Milk', 0,'Grocery', 0,'Frozen', 0,'Detergents_Paper', 0, 'Delicassen', 0,'Channel1',0,'Channel2',0,'Region1',0,'Region2',0,'Region3'],
             [0,'Fresk', 1,'Milk', 2,'Grocery', 4,'Frozen', 1,'Detergents_Paper', 0, 'Delicassen', 0,'Channel1',0,'Channel2',0,'Region1',0,'Region2',0,'Region3']]
